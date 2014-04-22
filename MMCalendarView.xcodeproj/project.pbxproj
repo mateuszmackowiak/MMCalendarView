@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AAE505A1906A94000312FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50591906A94000312FA4 /* Foundation.framework */; };
+		9AAE50601906A94000312FA4 /* MMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE505F1906A94000312FA4 /* MMCalendarView.m */; };
+		9AAE50671906A94000312FA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50661906A94000312FA4 /* XCTest.framework */; };
+		9AAE50681906A94000312FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50591906A94000312FA4 /* Foundation.framework */; };
+		9AAE506A1906A94000312FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50691906A94000312FA4 /* UIKit.framework */; };
+		9AAE506D1906A94000312FA4 /* libMMCalendarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50561906A94000312FA4 /* libMMCalendarView.a */; };
+		9AAE50731906A94000312FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE50711906A94000312FA4 /* InfoPlist.strings */; };
+		9AAE50751906A94000312FA4 /* MMCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE50741906A94000312FA4 /* MMCalendarViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AAE506B1906A94000312FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAE504C1906A94000312FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAE50551906A94000312FA4;
+			remoteInfo = MMCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AAE50561906A94000312FA4 /* libMMCalendarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMCalendarView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAE50591906A94000312FA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AAE505D1906A94000312FA4 /* MMCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		9AAE505E1906A94000312FA4 /* MMCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCalendarView.h; sourceTree = "<group>"; };
+		9AAE505F1906A94000312FA4 /* MMCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarView.m; sourceTree = "<group>"; };
+		9AAE50651906A94000312FA4 /* MMCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAE50661906A94000312FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AAE50691906A94000312FA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9AAE50701906A94000312FA4 /* MMCalendarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.mxml; path = "MMCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
+		9AAE50721906A94000312FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AAE50741906A94000312FA4 /* MMCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAE50521906A94000312FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE505A1906A94000312FA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAE50621906A94000312FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE506D1906A94000312FA4 /* libMMCalendarView.a in Frameworks */,
+				9AAE50671906A94000312FA4 /* XCTest.framework in Frameworks */,
+				9AAE506A1906A94000312FA4 /* UIKit.framework in Frameworks */,
+				9AAE50681906A94000312FA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAE504B1906A94000312FA4 = {
+			isa = PBXGroup;
+			children = (
+				9AAE505B1906A94000312FA4 /* MMCalendarView */,
+				9AAE506E1906A94000312FA4 /* MMCalendarViewTests */,
+				9AAE50581906A94000312FA4 /* Frameworks */,
+				9AAE50571906A94000312FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAE50571906A94000312FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE50561906A94000312FA4 /* libMMCalendarView.a */,
+				9AAE50651906A94000312FA4 /* MMCalendarViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAE50581906A94000312FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE50591906A94000312FA4 /* Foundation.framework */,
+				9AAE50661906A94000312FA4 /* XCTest.framework */,
+				9AAE50691906A94000312FA4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AAE505B1906A94000312FA4 /* MMCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE505E1906A94000312FA4 /* MMCalendarView.h */,
+				9AAE505F1906A94000312FA4 /* MMCalendarView.m */,
+				9AAE505C1906A94000312FA4 /* Supporting Files */,
+			);
+			path = MMCalendarView;
+			sourceTree = "<group>";
+		};
+		9AAE505C1906A94000312FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE505D1906A94000312FA4 /* MMCalendarView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AAE506E1906A94000312FA4 /* MMCalendarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE50741906A94000312FA4 /* MMCalendarViewTests.m */,
+				9AAE506F1906A94000312FA4 /* Supporting Files */,
+			);
+			path = MMCalendarViewTests;
+			sourceTree = "<group>";
+		};
+		9AAE506F1906A94000312FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE50701906A94000312FA4 /* MMCalendarViewTests-Info.plist */,
+				9AAE50711906A94000312FA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AAE50531906A94000312FA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AAE50551906A94000312FA4 /* MMCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAE50781906A94000312FA4 /* Build configuration list for PBXNativeTarget "MMCalendarView" */;
+			buildPhases = (
+				9AAE50501906A94000312FA4 /* ShellScript */,
+				9AAE50511906A94000312FA4 /* Sources */,
+				9AAE50521906A94000312FA4 /* Frameworks */,
+				9AAE50531906A94000312FA4 /* Headers */,
+				9AAE50541906A94000312FA4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMCalendarView;
+			productName = MMCalendarView;
+			productReference = 9AAE50561906A94000312FA4 /* libMMCalendarView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9AAE50641906A94000312FA4 /* MMCalendarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAE507B1906A94000312FA4 /* Build configuration list for PBXNativeTarget "MMCalendarViewTests" */;
+			buildPhases = (
+				9AAE50611906A94000312FA4 /* Sources */,
+				9AAE50621906A94000312FA4 /* Frameworks */,
+				9AAE50631906A94000312FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAE506C1906A94000312FA4 /* PBXTargetDependency */,
+			);
+			name = MMCalendarViewTests;
+			productName = MMCalendarViewTests;
+			productReference = 9AAE50651906A94000312FA4 /* MMCalendarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAE504C1906A94000312FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mateusz Maćkowiak";
+			};
+			buildConfigurationList = 9AAE504F1906A94000312FA4 /* Build configuration list for PBXProject "MMCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AAE504B1906A94000312FA4;
+			productRefGroup = 9AAE50571906A94000312FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAE50551906A94000312FA4 /* MMCalendarView */,
+				9AAE50641906A94000312FA4 /* MMCalendarViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAE50631906A94000312FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE50731906A94000312FA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AAE50501906A94000312FA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n# This is the other build, called from the original instance\nexit 0\nfi\n\n# Clean up prior to build\n\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\nif [ ! -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Device build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" \n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nelif [ ! -f \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" ]; then\n  echo \"Simulator build cleaned; cleaning other builds too\"\n  rm -f \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\n  rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AAE50541906A94000312FA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n#\n# Universal static library script\n# http://github.com/michaeltyson/iOS-Universal-Library-Template\n#\n# Version 2.5\n# \n# Purpose:\n#   Create a static library for iPhone from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Tweaked and made into an Xcode template by Michael Tyson - http://atastypixel.com/blog\n# Based on original script from Eonil\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\nif [ \"$CALLED_FROM_MASTER\" ]\nthen\n  # This is the other build, called from the original instance\n  exit 0\nfi\n\n# Find the BASESDK version number\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\n    OTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\n    OTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n\n# Build the other architecture\necho \"xcodebuild -project \\\"${PROJECT_FILE_PATH}\\\" -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" CALLED_FROM_MASTER=1\"\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" CALLED_FROM_MASTER=1\n\n# Merge built architectures\nCURRENTCONFIG_DEVICE_DIR=\"${SYMROOT}/${CONFIGURATION}-iphoneos\"\nCURRENTCONFIG_SIMULATOR_DIR=\"${SYMROOT}/${CONFIGURATION}-iphonesimulator\"\nCURRENTCONFIG_UNIVERSAL_DIR=\"${SYMROOT}/${CONFIGURATION}-universal\"\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\necho \"...I will output a universal build to: ${CURRENTCONFIG_UNIVERSAL_DIR}\"\n\nif [ ! -e \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n        \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" -o \\\n        \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\" -nt \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\n    mkdir -p \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\n    rm -f \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\n    echo \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n    lipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n    echo \"Copying universal build back over to ${CURRENTCONFIG_DEVICE_DIR} and ${CURRENTCONFIG_SIMULATOR_DIR}\"\n    cp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\"\n    cp \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n    touch \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\n\n    # Also copy public headers\n    if [ -d \"${CURRENTCONFIG_DEVICE_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}\" ]\n    then\n        mkdir -p \"${CURRENTCONFIG_UNIVERSAL_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}\"\n        cp \"${CURRENTCONFIG_DEVICE_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\"* \"${CURRENTCONFIG_UNIVERSAL_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}\"\n    fi\nelse\n    echo \"Everything up to date.\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAE50511906A94000312FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE50601906A94000312FA4 /* MMCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAE50611906A94000312FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE50751906A94000312FA4 /* MMCalendarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AAE506C1906A94000312FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAE50551906A94000312FA4 /* MMCalendarView */;
+			targetProxy = 9AAE506B1906A94000312FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AAE50711906A94000312FA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AAE50721906A94000312FA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AAE50761906A94000312FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AAE50771906A94000312FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AAE50791906A94000312FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DSTROOT = /tmp/MMCalendarView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AAE507A1906A94000312FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DSTROOT = /tmp/MMCalendarView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9AAE507C1906A94000312FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMCalendarViewTests/MMCalendarViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AAE507D1906A94000312FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "MMCalendarViewTests/MMCalendarViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAE504F1906A94000312FA4 /* Build configuration list for PBXProject "MMCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAE50761906A94000312FA4 /* Debug */,
+				9AAE50771906A94000312FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAE50781906A94000312FA4 /* Build configuration list for PBXNativeTarget "MMCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAE50791906A94000312FA4 /* Debug */,
+				9AAE507A1906A94000312FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AAE507B1906A94000312FA4 /* Build configuration list for PBXNativeTarget "MMCalendarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAE507C1906A94000312FA4 /* Debug */,
+				9AAE507D1906A94000312FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AAE504C1906A94000312FA4 /* Project object */;
+}
