@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9AAE505A1906A94000312FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50591906A94000312FA4 /* Foundation.framework */; };
-		9AAE50601906A94000312FA4 /* MMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE505F1906A94000312FA4 /* MMCalendarView.m */; };
 		9AAE50671906A94000312FA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50661906A94000312FA4 /* XCTest.framework */; };
 		9AAE50681906A94000312FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50591906A94000312FA4 /* Foundation.framework */; };
 		9AAE506A1906A94000312FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50691906A94000312FA4 /* UIKit.framework */; };
 		9AAE506D1906A94000312FA4 /* libMMCalendarView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAE50561906A94000312FA4 /* libMMCalendarView.a */; };
 		9AAE50731906A94000312FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE50711906A94000312FA4 /* InfoPlist.strings */; };
 		9AAE50751906A94000312FA4 /* MMCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE50741906A94000312FA4 /* MMCalendarViewTests.m */; };
+		9AAE508D1906A98200312FA4 /* MMCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE507E1906A98200312FA4 /* MMCalendarHeaderView.h */; };
+		9AAE508E1906A98200312FA4 /* MMCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE507F1906A98200312FA4 /* MMCalendarHeaderView.m */; };
+		9AAE508F1906A98200312FA4 /* MMCalendarView-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE50801906A98200312FA4 /* MMCalendarView-Prefix.pch */; };
+		9AAE50901906A98200312FA4 /* MMCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE50811906A98200312FA4 /* MMCalendarView.h */; };
+		9AAE50911906A98200312FA4 /* MMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE50821906A98200312FA4 /* MMCalendarView.m */; };
+		9AAE50921906A98200312FA4 /* MMCalendarViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE50831906A98200312FA4 /* MMCalendarViewCell.h */; };
+		9AAE50931906A98200312FA4 /* MMCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE50841906A98200312FA4 /* MMCalendarViewCell.m */; };
+		9AAE50961906A98200312FA4 /* MMCalendarViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE50871906A98200312FA4 /* MMCalendarViewLayout.h */; };
+		9AAE50971906A98200312FA4 /* MMCalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE50881906A98200312FA4 /* MMCalendarViewLayout.m */; };
+		9AAE50981906A98200312FA4 /* MMFastDateEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE50891906A98200312FA4 /* MMFastDateEnumeration.h */; };
+		9AAE50991906A98200312FA4 /* MMFastDateEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE508A1906A98200312FA4 /* MMFastDateEnumeration.m */; };
+		9AAE509A1906A98200312FA4 /* NSDate+MMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE508B1906A98200312FA4 /* NSDate+MMAdditions.h */; };
+		9AAE509B1906A98200312FA4 /* NSDate+MMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE508C1906A98200312FA4 /* NSDate+MMAdditions.m */; };
+		9ACD666F190D43E000569193 /* MMCalendarViewBaseDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACD666D190D43E000569193 /* MMCalendarViewBaseDataSource.h */; };
+		9ACD6670190D43E000569193 /* MMCalendarViewBaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD666E190D43E000569193 /* MMCalendarViewBaseDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +45,27 @@
 		9AAE50561906A94000312FA4 /* libMMCalendarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMCalendarView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAE50591906A94000312FA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AAE505D1906A94000312FA4 /* MMCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMCalendarView-Prefix.pch"; sourceTree = "<group>"; };
-		9AAE505E1906A94000312FA4 /* MMCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCalendarView.h; sourceTree = "<group>"; };
-		9AAE505F1906A94000312FA4 /* MMCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarView.m; sourceTree = "<group>"; };
 		9AAE50651906A94000312FA4 /* MMCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAE50661906A94000312FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9AAE50691906A94000312FA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9AAE50701906A94000312FA4 /* MMCalendarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.mxml; path = "MMCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
 		9AAE50721906A94000312FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AAE50741906A94000312FA4 /* MMCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarViewTests.m; sourceTree = "<group>"; };
+		9AAE507E1906A98200312FA4 /* MMCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarHeaderView.h; sourceTree = "<group>"; };
+		9AAE507F1906A98200312FA4 /* MMCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarHeaderView.m; sourceTree = "<group>"; };
+		9AAE50801906A98200312FA4 /* MMCalendarView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		9AAE50811906A98200312FA4 /* MMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarView.h; sourceTree = "<group>"; };
+		9AAE50821906A98200312FA4 /* MMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarView.m; sourceTree = "<group>"; };
+		9AAE50831906A98200312FA4 /* MMCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarViewCell.h; sourceTree = "<group>"; };
+		9AAE50841906A98200312FA4 /* MMCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarViewCell.m; sourceTree = "<group>"; };
+		9AAE50871906A98200312FA4 /* MMCalendarViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarViewLayout.h; sourceTree = "<group>"; };
+		9AAE50881906A98200312FA4 /* MMCalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarViewLayout.m; sourceTree = "<group>"; };
+		9AAE50891906A98200312FA4 /* MMFastDateEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFastDateEnumeration.h; sourceTree = "<group>"; };
+		9AAE508A1906A98200312FA4 /* MMFastDateEnumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFastDateEnumeration.m; sourceTree = "<group>"; };
+		9AAE508B1906A98200312FA4 /* NSDate+MMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MMAdditions.h"; sourceTree = "<group>"; };
+		9AAE508C1906A98200312FA4 /* NSDate+MMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MMAdditions.m"; sourceTree = "<group>"; };
+		9ACD666D190D43E000569193 /* MMCalendarViewBaseDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarViewBaseDataSource.h; sourceTree = "<group>"; };
+		9ACD666E190D43E000569193 /* MMCalendarViewBaseDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarViewBaseDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +123,21 @@
 		9AAE505B1906A94000312FA4 /* MMCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				9AAE505E1906A94000312FA4 /* MMCalendarView.h */,
-				9AAE505F1906A94000312FA4 /* MMCalendarView.m */,
+				9ACD666D190D43E000569193 /* MMCalendarViewBaseDataSource.h */,
+				9ACD666E190D43E000569193 /* MMCalendarViewBaseDataSource.m */,
+				9AAE507E1906A98200312FA4 /* MMCalendarHeaderView.h */,
+				9AAE507F1906A98200312FA4 /* MMCalendarHeaderView.m */,
+				9AAE50801906A98200312FA4 /* MMCalendarView-Prefix.pch */,
+				9AAE50811906A98200312FA4 /* MMCalendarView.h */,
+				9AAE50821906A98200312FA4 /* MMCalendarView.m */,
+				9AAE50831906A98200312FA4 /* MMCalendarViewCell.h */,
+				9AAE50841906A98200312FA4 /* MMCalendarViewCell.m */,
+				9AAE50871906A98200312FA4 /* MMCalendarViewLayout.h */,
+				9AAE50881906A98200312FA4 /* MMCalendarViewLayout.m */,
+				9AAE50891906A98200312FA4 /* MMFastDateEnumeration.h */,
+				9AAE508A1906A98200312FA4 /* MMFastDateEnumeration.m */,
+				9AAE508B1906A98200312FA4 /* NSDate+MMAdditions.h */,
+				9AAE508C1906A98200312FA4 /* NSDate+MMAdditions.m */,
 				9AAE505C1906A94000312FA4 /* Supporting Files */,
 			);
 			path = MMCalendarView;
@@ -136,6 +176,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAE50961906A98200312FA4 /* MMCalendarViewLayout.h in Headers */,
+				9ACD666F190D43E000569193 /* MMCalendarViewBaseDataSource.h in Headers */,
+				9AAE508D1906A98200312FA4 /* MMCalendarHeaderView.h in Headers */,
+				9AAE50981906A98200312FA4 /* MMFastDateEnumeration.h in Headers */,
+				9AAE508F1906A98200312FA4 /* MMCalendarView-Prefix.pch in Headers */,
+				9AAE50921906A98200312FA4 /* MMCalendarViewCell.h in Headers */,
+				9AAE509A1906A98200312FA4 /* NSDate+MMAdditions.h in Headers */,
+				9AAE50901906A98200312FA4 /* MMCalendarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AAE50601906A94000312FA4 /* MMCalendarView.m in Sources */,
+				9AAE50911906A98200312FA4 /* MMCalendarView.m in Sources */,
+				9AAE50971906A98200312FA4 /* MMCalendarViewLayout.m in Sources */,
+				9AAE509B1906A98200312FA4 /* NSDate+MMAdditions.m in Sources */,
+				9AAE508E1906A98200312FA4 /* MMCalendarHeaderView.m in Sources */,
+				9AAE50931906A98200312FA4 /* MMCalendarViewCell.m in Sources */,
+				9AAE50991906A98200312FA4 /* MMFastDateEnumeration.m in Sources */,
+				9ACD6670190D43E000569193 /* MMCalendarViewBaseDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +420,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -383,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMCalendarView/MMCalendarView-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -444,6 +501,7 @@
 				9AAE507A1906A94000312FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AAE507B1906A94000312FA4 /* Build configuration list for PBXNativeTarget "MMCalendarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +510,7 @@
 				9AAE507D1906A94000312FA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

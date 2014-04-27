@@ -1,0 +1,14 @@
+PODS:
+  - MMCalendarView (0.0.1)
+
+DEPENDENCIES:
+  - MMCalendarView (from `../`)
+
+EXTERNAL SOURCES:
+  MMCalendarView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMCalendarView: aa9d1a17a93450bd9d7354f2040013e3cc74a257
+
+COCOAPODS: 0.32.1
